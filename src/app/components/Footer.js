@@ -29,7 +29,7 @@ const { t } = useTranslation();
           <div className="pages-flex">
             <h2>{t("pages_title")}</h2>
             <Link href="/">{t("home")}</Link>
-            <Link href="/Apropos">{t("about_us")}</Link>
+            <Link href="/Apropos">{t("about")}</Link>
             <Link href="/Services">{t("services")}</Link>
             <Link href="/">{t("page_faq")}</Link>
           </div>
